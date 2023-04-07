@@ -133,7 +133,7 @@ migrate --reset    // 如果合约修改了需要重新部署，则需要添加r
 
 ## 👦👧About Us
 
-Lingnan Ethereum Darkness Agent
+**Lingnan Ethereum Darkness Agent**
 
 ✉️: 1257311626@qq.com
 
@@ -144,3 +144,5 @@ Lingnan Ethereum Darkness Agent
 ✉️: 963544587@qq.com
 
 ✉️: cswygu@qq.com
+
+最最感谢我们的博士师兄李培强以及**老王**❤️
