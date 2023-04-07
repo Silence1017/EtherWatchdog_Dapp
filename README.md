@@ -81,7 +81,7 @@ migrate
 migrate --reset    // 如果合约修改了需要重新部署，则需要添加reset参数
 ```
 成功后有如下输出
-[img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/1.png))
+![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/1.png))
 
 可以在打开的Ganache中看到执行成功的交易, 默认花费第一个帐户的ETH
 
