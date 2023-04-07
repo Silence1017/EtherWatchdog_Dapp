@@ -107,8 +107,36 @@ migrate --reset    // 如果合约修改了需要重新部署，则需要添加r
 
 ![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/4.png)
 
+## 🔔展望
+
+畅想一下未来，EtherWatchdog的未来绝不仅仅是一个普通的智能合约漏洞检测平台，它有能力成为像**Etherscan**一样优秀的**区块链搜索**、**API**和**分析平台**。未来🐶想做到：
+```text
+1、像Etherscan一样实时检测并展示最新区块中的含漏洞交易，并提供免费的API供开发者使用。
+2、制作一个包含以太坊所有交易的漏洞数据集供开发者使用，有效地避免社区成员调用含有漏洞的合约。
+3、🐶有能力做到像Etherscan一样获取以太坊相关信息，包括合约、交易、区块、账户等信息并提供相关API，因为🐶对EVM进行了修改。
+```
+
+## 🔔Citation
+
+如果EtherWatchdog对您的研究有帮助，欢迎引用
+
+```
+@inproceedings{gu2023detecting,
+  title={Detecting Unknown Vulnerabilities in Smart Contracts with Multi-Label Classification Model Using CNN-BiLSTM},
+  author={Gu, Wanyi and Wang, Guojun and Li, Peiqiang and Li, Xubin and Zhai, Guangxin and Li, Xiangbin and Chen, Mingfei},
+  booktitle={Ubiquitous Security: Second International Conference, UbiSec 2022, Zhangjiajie, China, December 28--31, 2022, Revised Selected Papers},
+  pages={52--63},
+  year={2023},
+  organization={Springer}
+}
+```
+
 ## 👦👧About Us
 
 Lingnan Ethereum Darkness Agent
 
+✉️: 1257311626@qq.com
+✉️: 1257311626@qq.com
+✉️: 1257311626@qq.com
+✉️: 1257311626@qq.com
 ✉️: 1257311626@qq.com
