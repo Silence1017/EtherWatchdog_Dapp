@@ -1,4 +1,3 @@
-# EtherWatchdog_Dapp
 <p align="center">
   <img src="https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/card.png" align="middle"  width="500" />
 </p>
