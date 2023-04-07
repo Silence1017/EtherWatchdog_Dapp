@@ -74,11 +74,6 @@ truffle console
 ```
 显示truffle(development)连接上了development环境
 
-> 编译合约
-```
-compile
-```
-成功后有如下输出，并且项目会增加build目录，里面有编译好的ABI文件
 
 > 部署合约
 ```
