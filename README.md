@@ -9,7 +9,7 @@
 </p>
 
 
-[1. 目录](#1) 
+[目录](#1) | [环境需求](#2) | [前端界面](#3) | [框架流程](#4) | [使用文档](#5) | [About Us](#6)
 
 
 EtherWatchdog是一款通过**交易**的操作码序列**实时**检测智能合约漏洞的安全平台，我们全面的智能合约漏洞检测服务可以帮助从初创公司到企业的每个人维护他们的以太坊区块链应用程序。EtherWatchdog的**未来**绝不仅仅是一个普通的智能合约漏洞检测平台，它有能力成为像**Etherscan**一样优秀的**区块链搜索**、**API**和**分析平台**。
@@ -17,9 +17,12 @@ EtherWatchdog是一款通过**交易**的操作码序列**实时**检测智能�
 [Dapp源码](https://github.com/Silence1017/EtherWatchdog_Dapp)  [Server源码](https://github.com/Silence1017/Lingnan-EthDarkness-Server)
 
 <p id="1"></p> 
+
 ## 🌎 背景
 
 以太坊的问世将区块链技术的发展推入以智能合约为标志的2.0时代。智能合约利用区块链去中心化的特性，将传统合同转变为代码的形式部署在区块链平台上，极大地降低了交易的成本。然而随着应用场景的丰富，智能合约控制的金融资产不可避免地成为黑客攻击的目标，其公开透明、不可篡改的特性以及与日俱增的复杂性更加剧了恶意攻击事件的发生。目前由智能合约安全漏洞引发的大规模安全案例不在少数，不仅造成了巨大的经济损失，而且严重破坏了基于区块链的信用体系，影响了用户对区块链技术的信任度和满意度。
+
+<p id="2"></p> 
 
 ## 📃 环境需求
 
@@ -30,6 +33,8 @@ EtherWatchdog是一款通过**交易**的操作码序列**实时**检测智能�
 5. [Solidity](https://soliditylang.org/) v0.5.16
 6. [Web3.js](https://web3js.org/) v1.8.2
 
+<p id="3"></p> 
+
 ## 💻 前端界面
 
 前端界面展示EtherWatchdog的三个部分————数据集、模型与检测。
@@ -37,6 +42,8 @@ EtherWatchdog是一款通过**交易**的操作码序列**实时**检测智能�
 1. 数据集：展示Geth插桩获取的部分交易信息。
 2. 模型：展示用于检测合约漏洞的CNN-BiLSTM多分类模型。
 3. 检测：展示合约漏洞检测流程，用户输入待检测的交易Hash并提交，后端返回检测结果并上链。
+
+<p id="4"></p> 
 
 ## 🎉 框架流程
 
@@ -47,6 +54,8 @@ EtherWatchdog是一款通过**交易**的操作码序列**实时**检测智能�
 ### ⚡ 漏洞检测
 
 我们搭建了基于CNN-BiLSTM的深度学习多分类模型，将交易操作码序列向量化并传入模型，最终检测出合约是否存在漏洞，若存在则输出哪种漏洞。目前模型能检测5种漏洞，包括错误的权限检查（Incorrect Check for Authorization）、错误处理的异常（No Check after Contract Invocation）、缺少标准事件（Missing the Transfer Event）、严格余额检查（Strict Check for Balance）和时间戳/区块号依赖（Timestamp Dependency & Block Number Dependency）。
+
+<p id="5"></p> 
 
 ## 📜 使用文档
 
@@ -124,6 +133,7 @@ migrate --reset    // 如果合约修改了需要重新部署，则需要添加r
   organization={Springer}
 }
 ```
+<p id="6"></p> 
 
 ## 👦👧About Us
 
