@@ -153,3 +153,7 @@ migrate --reset    // 如果合约修改了需要重新部署，则需要添加r
 ✉️: cswygu@qq.com
 
 最最感谢我们的博士师兄李培强以及**老王**❤️
+
+## License
+
+EtherWatchdog遵循[Apache-2.0开源协议](./LICENSE)。
