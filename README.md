@@ -136,7 +136,11 @@ migrate --reset    // 如果合约修改了需要重新部署，则需要添加r
 Lingnan Ethereum Darkness Agent
 
 ✉️: 1257311626@qq.com
-✉️: 1257311626@qq.com
-✉️: 1257311626@qq.com
-✉️: 1257311626@qq.com
-✉️: 1257311626@qq.com
+
+✉️: ouzhsh@126.com
+
+✉️: 835837078@qq.com
+
+✉️: 963544587@qq.com
+
+✉️: cswygu@qq.com
