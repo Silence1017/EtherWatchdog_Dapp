@@ -52,6 +52,7 @@ EtherWatchdog是一款通过交易的操作码序列实时检测智能合约漏�
 truffle init
 npm init
 ```
+![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/5.png)
 
 ### 😾 启动私链
 > 打开Ganache，启动本地私链，默认生成10个有100个ETH的账户
@@ -74,19 +75,21 @@ truffle console
 ```
 显示truffle(development)连接上了development环境
 
-
 > 部署合约
 ```
 migrate
 migrate --reset    // 如果合约修改了需要重新部署，则需要添加reset参数
 ```
-成功后有如下输出
-![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/1.png))
+成功后控制台和Canache分别有如下输出
+![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/1.png)
+![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/2.png)
 
 可以在打开的Ganache中看到执行成功的交易, 默认花费第一个帐户的ETH
 
-
-
+### 🎩 检测合约漏洞
+> 点击检测界面，输入查询交易Hash并提交，得到如下结果
+![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/3.png)
+![img](https://raw.githubusercontent.com/Silence1017/EtherWatchdog_Dapp/main/images/4.png)
 
 ## 👦👧About Us
 
